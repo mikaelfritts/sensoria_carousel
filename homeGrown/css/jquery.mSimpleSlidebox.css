@@ -1,0 +1,22 @@
+/*
+Slidebox jQuery banner rotator and image slideshow plugin styling
+*/
+
+/* basic/minimum styling */
+.slidebox{position:relative; background:#ccc; margin:0 auto; overflow:hidden;}
+.slidebox,.slidebox .slideboxSlide{width:960px;}
+.slidebox,.slidebox .slideboxSlides,.slidebox .slideboxSlide{height:405px;}
+.slidebox ul{position:relative; overflow:hidden; margin:0; padding:0; border:0; list-style-type:none;}
+.slidebox ul li{float:left;}
+.slidebox ul li .slideboxCaption{font-family:Verdana,Geneva,sans-serif; font-size:13px;}
+.slideboxContainer{position:relative; margin:40px auto;}
+.slideboxContainer .slideboxNext,.slideboxContainer .slideboxPrevious{position:absolute; display:block; width:65px; height:65px; top:45%; margin-top:-11px;}
+.slideboxContainer .slideboxNext{right:0; margin-right:10px; background:url(../images/slidebox_next.png) no-repeat;}
+.slideboxContainer .slideboxNext:hover{background:url(../images/slidebox_next_hover.png) no-repeat;}
+.slideboxContainer .slideboxPrevious{margin-left:10px; background:url(../images/slidebox_previous.png) no-repeat;}
+.slideboxContainer .slideboxPrevious:hover{background:url(../images/slidebox_previous_hover.png) no-repeat;}
+.slideboxContainer .slideboxThumbs{position:absolute; bottom:5px; right:10px; text-align:center;}
+.slideboxContainer .slideboxThumbs .slideboxThumb{display:inline-block; margin:0 3px; background:#666; min-width:10px; min-height:10px; text-decoration:none; font-size:12px; color:#fff;}
+.slideboxContainer .slideboxThumbs .slideboxThumb:hover,.slideboxContainer .slideboxThumbs .selectedSlideboxThumb{background:#83D278; color:#666;}
+
+}
